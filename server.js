@@ -1,6 +1,7 @@
 // Node-Svc. Simple microservice. Includes both Express and Fetch. Calls itself, 
 // or can be replicated and will round-robin requests among peers.  
 
+
 'use strict';
 
 // vary these constants according to where you are running (GCS, VMs, K8S) and how many VMs you have, if that's the lesson)
